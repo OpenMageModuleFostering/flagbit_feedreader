@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>Flagbit_FeedReader</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL 3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>A simple feed reader supporting RSS and Atom feeds. Highly customizable and easy to integrate.</summary>
+    <description>A simple feed reader supporting RSS and Atom feeds. Highly customizable and easy to integrate.
+
+Configuration is done in the default/layout/feedreader.xml. Simply reference the block where you want to create the feed. Feed URI and item count and template can be freely configured.</description>
+    <notes>- Initial release</notes>
+    <authors><author><name>David Fuhr</name><user>auto-converted</user><email>fuhr@flagbit.de</email></author></authors>
+    <date>2010-04-14</date>
+    <time>09:37:02</time>
+    <contents><target name="magecommunity"><dir name="Flagbit"><dir name="FeedReader"><dir name="Block"><file name="Abstract.php" hash="976c980694b2bc229b06810dd938fb1b"/><file name="Sidebar.php" hash="ea5b419e653db76daefabeebbd41ab3b"/></dir><dir name="etc"><file name="config.xml" hash="dd66389978451c6aad3faddb31703584"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Flagbit_FeedReader.xml" hash="302036c0fe8cc40a093ff3c8bd62b399"/></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><file name="feedreader.css" hash="eb016f3f670214e6472230290c598372"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="feedreader.xml" hash="c5c3f1bf1e2414db5b73fd7328eed8d8"/></dir><dir name="template"><dir name="feedreader"><file name="sidebar.phtml" hash="bf664391777eadae9a6af2d9b6c207a9"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies/>
+</package>
