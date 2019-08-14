@@ -6,8 +6,8 @@
     "description": "A simple feed reader supporting RSS and Atom feeds. Highly customizable and easy to integrate.",
     "authors": [
     {
-        "name": "David Fuhr",
-        "email": "fuhr@flagbit.de"
+        "name": "Flagbit GmbH ",
+        "email": "magento@flagbit.de"
     }
 ],
     "suggest": {
