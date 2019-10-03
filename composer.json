@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Flagbit_FeedReader",
+    "name": "OpenMageModuleFostering\/Flagbit_FeedReader",
     "type": "magento-module",
     "license": "OSL-3.0",
     "homepage": "",
     "description": "A simple feed reader supporting RSS and Atom feeds. Highly customizable and easy to integrate.",
     "authors": [
-    {
-        "name": "Flagbit GmbH ",
-        "email": "magento@flagbit.de"
-    }
-],
+        {
+            "name": "Flagbit GmbH ",
+            "email": "magento@flagbit.de"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
